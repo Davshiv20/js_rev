@@ -1,3 +1,5 @@
+//random but don't forget what string interpolation is
+
 let mydate= new Date()
 console.log(mydate)
 console.log(typeof mydate)
