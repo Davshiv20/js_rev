@@ -50,3 +50,23 @@ console.log(Object.entries(tinderUser));
 
 //asking for property
 //object.hasOwnProperty('____property_name_____');
+
+
+//OBJECT DESTRUCTURING
+
+
+ const course={
+    courseName:"js",
+    price:"999",
+    courseInstructor:"sd"
+ }
+
+ const {courseInstructor: teach}=course
+ console.log(teach);
+
+ //JSON
+//  {
+//     "name":"shivam",
+//     "price":"infinity",
+
+//  }
